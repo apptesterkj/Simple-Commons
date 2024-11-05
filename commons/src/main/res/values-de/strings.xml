@@ -115,7 +115,7 @@
     </plurals>
     <!-- Blocked numbers -->
     <string name="manage_blocked_numbers">Blockierte Nummern verwalten</string>
-    <string name="not_blocking_anyone">Du blockierst niemanden.</string>
+    <string name="not_blocking_anyone">Du hast niemanden blockiert.</string>
     <string name="add_a_blocked_number">Eine zu blockierende Nummer hinzufügen</string>
     <string name="block_number">Nummer blockieren</string>
     <string name="block_numbers">Nummern blockieren</string>
@@ -124,12 +124,12 @@
     <string name="import_blocked_numbers">Blockierte Nummern importieren</string>
     <string name="must_make_default_dialer">Du musst diese App als Standardtelefonie-App einstellen, um Nummern blockieren zu können.</string>
     <string name="set_as_default">Als Standard auswählen</string>
-    <string name="block_confirmation">„%s“ wirklich blockieren\?</string>
+    <string name="block_confirmation">Möchstest du „%s“ wirklich blockieren\?</string>
     <string name="block_not_stored_calls">Anrufe von nicht gespeicherten Kontakten blockieren</string>
     <string name="block_hidden_calls">Anrufe von unterdrückten Nummern blockieren</string>
     <string name="block_not_stored_messages">Nachrichten von nicht gespeicherten Kontakten blockieren</string>
     <string name="block_hidden_messages">Nachrichten von unterdrückten Nummern blockieren</string>
-    <string name="add_blocked_number_helper_text">Gib eine Nummer oder ein Muster (z. B. *12345*, +1*8888) ein, um alle Anrufe und Nachrichten von Nummern zu blockieren, die dem Muster entsprechen.</string>
+    <string name="add_blocked_number_helper_text">Gib eine Nummer oder ein Muster (z. B. *12345*, +49*8888) ein, um alle Anrufe und Nachrichten von Nummern zu blockieren, die dem Muster entsprechen.</string>
     <string name="must_make_default_caller_id_app">Unbekannte Nummern können ohne Anrufer-ID-Berechtigung nicht blockiert werden.</string>
     <string name="block_contact">Kontakt blockieren</string>
     <string name="block_contact_success">Kontakt blockiert</string>
@@ -198,10 +198,10 @@
     <string name="rename_folder_root">Das Hauptverzeichnis des Speichers kann nicht umbenannt werden</string>
     <string name="rename_folder_ok">Ordner erfolgreich umbenannt</string>
     <string name="renaming_folder">Ordner umbenennen</string>
-    <string name="filename_cannot_be_empty">Dateiname darf nicht leer sein</string>
-    <string name="filename_invalid_characters">Dateiname enthält ungültige Zeichen</string>
-    <string name="filename_invalid_characters_placeholder">Dateiname ‚%s‘ enthält ungültige Zeichen</string>
-    <string name="extension_cannot_be_empty">Dateiendung darf nicht leer sein</string>
+    <string name="filename_cannot_be_empty">Der Dateiname darf nicht leer sein</string>
+    <string name="filename_invalid_characters">Der Dateiname enthält ungültige Zeichen</string>
+    <string name="filename_invalid_characters_placeholder">Der Dateiname ‚%s‘ enthält ungültige Zeichen</string>
+    <string name="extension_cannot_be_empty">Die Dateiendung darf nicht leer sein</string>
     <string name="source_file_doesnt_exist">Quelldatei ‚%s‘ existiert nicht</string>
     <string name="prepend_filenames">Text dem Dateinamen voranstellen</string>
     <string name="append_filenames">Text dem Dateinamen anhängen</string>
@@ -285,7 +285,7 @@
     <string name="confirm_create_doc_for_new_folder_text">Bitte am unteren Rand des nächsten Bildschirms auf „<b>Speichern</b>“ drücken, um den neuen Ordner zu erstellen.</string>
     <string name="confirm_selection">Auswahl bestätigen</string>
     <string name="loading">Wird geladen …</string>
-    <string name="access_storage_prompt">Bitte unserer App Zugriff auf alle Dateien gewähren, da sie sonst möglicherweise nicht richtig funktioniert.</string>
+    <string name="access_storage_prompt">Bitte gewähre unserer App Zugriff auf alle Dateien, da sie sonst möglicherweise nicht richtig funktioniert.</string>
     <plurals name="items">
         <item quantity="one">%d Element</item>
         <item quantity="other">%d Elemente</item>
@@ -311,7 +311,7 @@
     <string name="internal_storage">Interner Speicher</string>
     <string name="sd_card">SD-Karte</string>
     <string name="root">Hauptverzeichnis</string>
-    <string name="wrong_root_selected">Falscher Ordner ausgewählt, bitte Hauptverzeichnis der SD-Karte auswählen</string>
+    <string name="wrong_root_selected">Falscher Ordner ausgewählt, bitte das Hauptverzeichnis der SD-Karte auswählen</string>
     <string name="sd_card_usb_same">SD-Karten- und USB-Gerätepfad dürfen nicht identisch sein</string>
     <string name="app_on_sd_card">Die App wurde anscheinend auf der SD-Karte installiert, daher sind die Widgets nicht verfügbar. Sie werden auch in der Liste der Widgets nicht angezeigt.
         Dies ist systemseitig so beschränkt. Für die Verwendung der Widgets muss die App wieder im internen Speicher installiert werden.</string>
@@ -637,7 +637,7 @@
     </plurals>
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Zeit bis Alarm:\n%s</string>
-    <string name="reminder_triggers_in">Verbleibende Zeit bis Alarm ausgelöst wird:\n%s</string>
+    <string name="reminder_triggers_in">Verbleibende Zeit bis der Alarm ausgelöst wird:\n%s</string>
     <string name="time_remaining">Verbleibende Zeit:
 \n%s</string>
     <string name="alarm_warning">Bitte vergewissere dich, dass der Alarm zuverlässig funktioniert, bevor du dich auf ihn verlässt. Er könnte wegen Systemeinschränkungen, wie der Stromsparfunktion, fehlschlagen.</string>
